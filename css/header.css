@@ -25,8 +25,8 @@
   background: var(--blue-light);
   border: 2px solid var(--blue-xlight);
   border-radius: .5rem;
-  padding-block-start: .3rem;
-  padding-block-end: .3rem;
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
   padding-inline-start: 2rem;
   color: var(--blue-xlight);
   width: 100%;
