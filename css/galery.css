@@ -2,7 +2,7 @@
 .galery-grid {
   display: grid;
   grid-auto-rows: 100px;
-  gap: 1rem;
+  gap: .5rem;
   grid-auto-flow: row dense;
 }
 
