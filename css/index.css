@@ -1,0 +1,31 @@
+@import './header.css';
+@import './nav.css';
+@import './main.css';
+@import './galery.css';
+
+:root {
+  --blue-dark: #18171F;
+  --blue-light: #303143;
+  --blue-xlight: #7d7e96;
+  --light: #39ABCB;
+  --white: #fff;
+  --font-base: Outfit, sans-serif;
+}
+
+body {
+  background: var(--blue-dark);
+  color: var(--white);
+  font-family: var(--font-base);
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  margin: auto;
+  max-width: 320px;
+}

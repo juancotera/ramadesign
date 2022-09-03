@@ -1,0 +1,21 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: .5rem;
+  padding-block-end: 1rem;
+}
+
+.header-main h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.header-main li {
+  list-style: none;
+}
+
+.header-main li a {
+  color: var(--blue-xlight);
+}
