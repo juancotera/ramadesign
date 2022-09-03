@@ -17,10 +17,3 @@ function two() {
     elements[i].style.flex = "50%";
   }
 }
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "25%";
-  }
-}

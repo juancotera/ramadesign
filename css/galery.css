@@ -1,17 +1,40 @@
-.galery-row {
-  display: flex;
-  padding: 0 4px;
+/*---GRID---*/
+.galery-grid {
+  display: grid;
+  grid-auto-rows: 100px;
+  gap: 1rem;
+  grid-auto-flow: row dense;
 }
 
-.column {
-  flex: 50%;
-  padding: 0 4px;
+.sites:nth-child(11n+1) {
+  grid-column: span 1;
 }
 
-.column .sites {
-  margin-block-end: .5rem;
-  vertical-align: middle;
+.sites:nth-child(11n+4) {
+  grid-column: span 2;
+  grid-row: span 1;
 }
+
+.sites:nth-child(11n+6) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.sites:nth-child(11n+7) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.sites:nth-child(11n+8) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.sites:nth-child(11n+9) {
+  grid-row: span 3;
+}
+
+/*---CARD---*/
 
 .sites {
   position: relative;
@@ -20,7 +43,9 @@
 
 .background {
   width: 100%;
+  height: 100%;
   border-radius: .5rem;
+  object-fit: cover;
 }
 
 .site__info {
@@ -33,7 +58,7 @@
 
 .name-site {
   margin-inline-start: .5rem;
-  font-weight: 100;
+  font-weight: 400;
   font-size: .7rem;
 }
 
@@ -60,3 +85,10 @@
   font-size: .7rem;
 }
 
+/*---media Q---*/
+
+@media all and (min-width: 320px) {
+  .galery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
