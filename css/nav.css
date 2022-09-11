@@ -39,6 +39,10 @@
   list-style: none;
 }
 
+.category__icon img {
+  margin: auto;
+}
+
 .category p {
   margin: 0;
   font-weight: 400;
@@ -46,4 +50,5 @@
   text-align: center;
   color: var(--blue-xlight);
   padding-block-start: .5rem;
+  text-transform: capitalize;
 }
