@@ -13,7 +13,7 @@
 .categorys {
   height: 100%;
   display: flex;
-  gap: 1rem;
+  gap: .8rem;
   overflow: scroll;
 }
 

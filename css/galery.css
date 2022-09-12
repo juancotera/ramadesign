@@ -8,6 +8,7 @@
 
 .sites:nth-child(11n+1) {
   grid-column: span 1;
+  grid-row: span 2;
 }
 
 .sites:nth-child(11n+4) {
@@ -16,12 +17,12 @@
 }
 
 .sites:nth-child(11n+6) {
-  grid-column: span 2;
+  grid-column: span 1;
   grid-row: span 1;
 }
 
 .sites:nth-child(11n+7) {
-  grid-column: span 1;
+  grid-column: span 2;
   grid-row: span 2;
 }
 
@@ -31,7 +32,8 @@
 }
 
 .sites:nth-child(11n+9) {
-  grid-row: span 3;
+  grid-column: span ;
+  grid-row: span 2;
 }
 
 /*---CARD---*/
