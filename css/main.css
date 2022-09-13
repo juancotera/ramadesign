@@ -18,4 +18,5 @@
 
 .header-main li a {
   color: var(--white);
+  text-decoration: none;
 }

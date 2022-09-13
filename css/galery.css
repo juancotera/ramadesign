@@ -50,6 +50,10 @@
   object-fit: cover;
 }
 
+.background:hover {
+  opacity: .5;
+}
+
 .site__info {
   position: absolute;
   bottom: 20px;
