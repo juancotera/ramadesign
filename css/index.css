@@ -2,6 +2,7 @@
 @import './nav.css';
 @import './main.css';
 @import './galery.css';
+@import './site.css';
 
 :root {
   --blue-dark: #18171F;
@@ -19,8 +20,20 @@ body {
   margin: 0;
 }
 
+h1, h2, p, ul {
+  margin: 0;
+}
+
 body::-webkit-scrollbar {
   display: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .wrapper {

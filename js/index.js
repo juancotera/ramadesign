@@ -88,7 +88,7 @@ function displayGaleryItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
     // console.log(item);
 
-    return `<div class="sites">
+    return `<a href="../site.html" class="sites">
               <img src=${item.img} alt=${item.title} class="background">
               <div class="site__info">
                 <span class="name-site">${item.title}</span>
@@ -97,7 +97,7 @@ function displayGaleryItems(menuItems) {
                   <li class="lnr lnr-star"></li>
                 </div>
               </div>
-            </div>`;
+            </a>`;
   });
   displayMenu = displayMenu.join("");
   // console.log(displayMenu);

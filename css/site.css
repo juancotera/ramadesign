@@ -1,0 +1,84 @@
+.container {
+  height: 100vh;
+}
+
+.cover {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.content {
+  margin-block-start: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/*Datos del lugar*/
+.site {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-content_data h2 {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-block-end: 8px;
+}
+
+.site-content_point {
+  display: flex;
+  gap: 4px;
+}
+
+.site-content_point p {
+  text-transform: capitalize;
+}
+
+.site-content_stars {
+  display: flex;
+}
+
+.appreciate_site {
+  margin: auto;
+  padding-inline-start: .5rem;
+  padding-inline-end: .5rem;
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
+  background: var(--light);
+  border-radius: .2rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.appreciate_site span {
+  font-size: 14px;
+}
+
+/*descripcion*/
+.description_site {
+  font-weight: 200;
+  color: var(--white);
+}
+
+
+/**/
+.site-details {
+  background: var(--light);
+  border-radius: 8px 8px 0 0;
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+}
+
+.site-details span {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--blue-dark);
+}
+
+.price {
+  text-align: center;
+  font-size: 24px;
+}
